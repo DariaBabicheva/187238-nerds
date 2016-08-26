@@ -1,12 +1,157 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Нёрдс</title>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Нердс</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
   </head>
-  <body>
+<body>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
+<header class="main_header">
 
-  </body>
+  <div class="logo_and_nav_container">
+    <div class="logo">
+      <div class="logo_img"><img src="img/main_logo.png" width="139" height="56" alt="Логотип дизайн-студии Нердс"></div>
+    </div>
+
+   <nav class="main_nav">
+     <ul class="main_nav_list">
+       <li class="main_nav_item active_nav_item"><span>Студия</span></li>
+       <li class="main_nav_item"><a href="#">Клиенты</a></li>
+       <li class="main_nav_item"><a href="catalog.html">Магазин</a></li>
+       <li class="main_nav_item"><a href="#">Контакты</a></li>
+      </ul>
+    </nav>
+
+    <div class="basket">
+      <a href="#"><span class="icon_basket">Корзина</span></a>
+    </div>
+  </div>
+
+  <div class="promo">
+    <div class="promo_text">
+      <h1 class="promo_title">Долго, дорого, скрупулезно.</h1>
+      <div class="simple_text">
+        <p>Математически выверенный дизайн</p>
+        <p>для вашего сайта или мобильного приложения</p>
+      </div>
+      <div class="button_more">
+        <a href="#">Узнать больше</a>
+      </div>
+    </div>
+    <div class="promo_img">
+      <div class="promo_img_cover"><img src="img/promo.png" width="338" height="231" alt="Дизайн для вашего сайта"></div>
+    </div>
+  </div>
+
+</header>
+
+  <div class="container">
+
+  <section class="products">
+
+    <div class="product product_web">
+      <div class="product_img">
+        <div class="product_img_cover"><img src="img/product_1.jpg" width="240" height="124" alt="Веб-сайты"></div>
+      </div>
+      <h2 class="product_title">Веб-сайты</h2>
+      <span class="product_text">Мир никогда не будет прежним после того как увидит наш сайт!</span>
+      <div class="product_button"><a href="#">Заказать</a></div>
+    </div>
+
+    <div class="product product_app">
+      <div class="product_img">
+        <div class="product_img_cover"><img src="img/product_2.jpg" width="240" height="124" alt="Приложения"></div>
+      </div>
+      <h2 class="product_title">Приложения</h2>
+      <span class="product_text">Покорите топ-100 приложений в AppStore и Google Play</span>
+      <div class="product_button"><a href="#">Заказать</a></div>
+    </div>
+
+    <div class="product product_presentation">
+      <div class="product_img">
+        <div class="product_img_cover"><img src="img/product_3.jpg" width="240" height="124" alt="Презентации"></div>
+      </div>
+      <h2 class="product_title">Презентации</h2>
+      <span class="product_text">Вы даже не подозреваете, насколько вы изумительны!</span>
+      <div class="product_button"><a href="#">Заказать</a></div>
+    </div>
+
+  </section>
+
+  <div class="about">
+    <div class="company">
+      <div class="company_slogan">
+        <span class="company_slogan_title">Мы - маленькая, но гордая дизайн-студия из Краснодара.</span>
+        <span class="simple_text">Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.</span>
+      </div>
+      <div class="company_logo">
+        <div class="pic"><img src="img/logo.png" width="187" height="75" alt="Компания работает с 2004 года"></div>
+        <span class="logo_simple_text">Since 2004</span>
+      </div>
+    </div>
+    <div class="work">
+      <div class="orders">
+        <span class="orders_text">Выполняем заказы на разработку</span>
+        <ul class="our_orders">
+          <li class="our_orders_item">Веб-сайты любой сложности</li>
+          <li class="our_orders_item">Мобильные приложения для IOS и Android</li>
+          <li class="our_orders_item">Слайд-шоу и видео для корпоративных презентаций</li>
+        </ul>
+      </div>
+      <div class="how_we_work">
+        <span class="orders_text">Как мы работаем</span>
+        <ul class="our_orders">
+          <li class="our_orders_item">С самоотдачей 146%</li>
+          <li class="our_orders_item">Соблюдая сроки на 100%</li>
+          <li class="our_orders_item">По предоплате 50%</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="partners">
+    <div class="glukhanko"><img src="img/glukhanko.png" width="198" height="37" alt="Glukhanko"></div>
+    <div class="htmlacademy"><img src="img/html_academy.png" width="199" height="68" alt="Html academy"></div>
+    <div class="borodinski"><img src="img/borodinski.png" width="209" height="86" alt="Borodinski"></div>
+  </div>
+
+</div>
+
+  <footer class="main_footer">
+
+  <div class="map_container">
+     <div class="map"><img src="img/map.jpg" width="1200" height="784" alt="Где мы находимся"></div>
+     <div class="map_note"><img src="img/note.png" width="231" height="190" alt="Наше местоположение"></div>
+     <div class="contacts">
+       <div class="contacts_title">Nёrds design studio</div>
+       <div class="adress">
+         <p>191186, Санкт-Петербург,</p>
+         <p>ул. Б. Конюшенная, д.19,8</p>
+         <p class="tel">тел. +7(812) 275-75-75</p>
+       </div>
+       <div class="button_write_to_us">
+         <a href="#">Напишите нам</a>
+       </div>
+     </div>
+  </div>
+
+
+  <div class="footer">
+    <div class="social_nets">
+      <a class="social_btn social_btn_vk" href="#"><span class="icon_vk"></span></a>
+      <a class="social_btn social_btn_facebook" href="#"><span class="icon_facebook"></span></a>
+      <a class="social_btn social_btn_instagram" href="#"><span class="icon_instagramm"></span></a>
+    </div>
+    <div class="footer_slogan">
+      <span class="main_footer_slogan">Давайте дружить, это выгодно!</span>
+      <span class="footer_slogan_simple_text">Скидка 10% для друзей из социальных сетей</span>
+    </div>
+  </div>
+
+  </footer>
+
+</body>
 </html>

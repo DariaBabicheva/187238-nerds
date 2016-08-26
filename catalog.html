@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Нердс</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  </head>
+<body>
+
+  <header class="main_header">
+
+    <div class="logo_and_nav_container">
+      <div class="logo">
+        <div class="logo_img">
+          <a href="index.html"><img src="img/main_logo.png" width="139" height="56" alt="Логотип дизайн-студии Нердс"></a>
+        </div>
+      </div>
+
+      <nav class="main_nav">
+        <ul class="main_nav_list">
+          <li class="main_nav_item"><a href="index.html">Студия</a></li>
+          <li class="main_nav_item"><a href="#">Клиенты</a></li>
+          <li class="main_nav_item active_nav_item"><span>Магазин</span></li>
+          <li class="main_nav_item"><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <div class="basket">
+        <a href="#"><span class="icon_basket"></span>Корзина</a>
+      </div>
+    </div>
+
+      <div class="welcome">
+        <p>Добро пожаловать в магазин готовых макетов</p>
+      </div>
+
+    </header>
+
+     <div class="container">
+
+<main class="main_content">
+
+      <section class="filters">
+
+        <form action="#" method="get"  class="filter_form">
+
+          <div class="price_range">
+            <fieldset class="filter_rates">
+              <legend class="filter_text_bold">Стоимость:</legend>
+              <div class="range_controls">
+                <div class="scale">
+                  <div class="bar"></div>
+                </div>
+              <div class="range_toggle range_toggle_min"></div>
+              <div class="range_toggle range_toggle_max"></div>
+            </div>
+              <div class="price_controls">
+                <label class="min_price">от<input type="text" name="min_rates" value="0"></label>
+                <label class="max_price">до<input type="text" name="max_rates" value="15000"></label>
+              </div>
+            </fieldset>
+          </div>
+
+            <div class="content_networks">
+              <fieldset class="filter_content_networks">
+                <legend class="filter_text_bold">Сетка:</legend>
+                <input type="radio" name="adapted" id="ad"><label for="ad">Адаптивная</label>
+                <input type="radio" name="fixed" id="fx"><label for="fx">Фиксированная</label>
+                <input type="radio" name="rubbed"  id="rb"><label for="rb">Резиновая</label>
+              </fieldset>
+            </div>
+
+            <div class="specialities">
+              <fieldset class="filter_specialities">
+                <legend class="filter_text_bold">Особенности:</legend>
+                <input type="checkbox" name="slider" id="sl"><label for="sl">Слайдер</label>
+                <input type="checkbox" name="advances" id="adc"><label for="adc">Блок преимуществ</label>
+                <input type="checkbox" name="news"  id="nw"><label for="nw">Новости</label>
+                <input type="checkbox" name="galery" id="gl"><label for="gl">Галерея</label>
+                <input type="checkbox" name="basket"  id="bs"><label for="bs">Корзина</label>
+              </fieldset>
+              <button class="btn_show" type="submit">Показать</button>
+            </div>
+          </form>
+        </section>
+
+      <section class="icons_examples">
+        <div class="sorted_container">
+          <div class="sort_field">Сортировать:</div>
+          <div class="sort_field range">
+            <ul class="sort_field_list">
+              <li class="sort_field_item"><a href="#">по цене</a></li>
+              <li class="sort_field_item"><a href="#">по типу</a></li>
+              <li class="sort_field_item"><a href="#">по функционалу</a></li>
+           </ul>
+          </div>
+          <div class="arrows">
+            <a class="arrow_down" href="#"><span class="icon_down_dir"></span></a>
+            <a class="arrow_up" href="#"><span class="icon_up_dir"></span></a>
+          </div>
+        </div>
+
+      <div class="examples">
+        <article class="web_sites web_sites_left">
+          <div class="dots">
+            <ul class="decoration_dots">
+              <li>&#9679;</li>
+              <li>&#9679;</li>
+              <li>&#9679;</li>
+            </ul>
+          </div>
+          <img src="img/example_1.jpg" width="240" height="240" alt="AVIATOR"></article>
+        <article class="web_sites web_sites_right">
+          <div class="dots">
+            <ul class="decoration_dots">
+              <li>&#9679;</li>
+              <li>&#9679;</li>
+              <li>&#9679;</li>
+            </ul>
+          </div>
+          <img src="img/example_2.jpg" width="240" height="240" alt="SAHARA">
+          <div class="details_container">
+            <div class="details">
+              <span class="details_title">Sunset</span>
+              <span class="details_text">Интернет-магазин с личным кабинетом</span>
+              <div class="price_btn">10000 p.</div>
+            </div>
+          </div>
+        </article>
+        <p> </p>
+        <article class="web_sites web_sites_left">
+          <div class="dots">
+            <ul class="decoration_dots">
+              <li>&#9679;</li>
+              <li>&#9679;</li>
+              <li>&#9679;</li>
+            </ul>
+          </div>
+          <img src="img/example_3.jpg" width="240" height="240" alt="FORTE">
+        </article>
+        <article class="web_sites web_sites_right">
+          <div class="dots">
+            <ul class="decoration_dots">
+              <li>&#9679;</li>
+              <li>&#9679;</li>
+              <li>&#9679;</li>
+            </ul>
+          </div>
+          <img src="img/example_4.jpg" width="240" height="240" alt="MARQUET">
+        </article>
+        <p> </p>
+        <article class="web_sites web_sites_left">
+          <div class="dots">
+            <ul class="decoration_dots">
+              <li>&#9679;</li>
+              <li>&#9679;</li>
+              <li>&#9679;</li>
+            </ul>
+          </div>
+          <img src="img/example_5.jpg" width="240" height="240" alt="AVENUE">
+        </article>
+        <article class="web_sites web_sites_right">
+          <div class="dots">
+            <ul class="decoration_dots">
+              <li>&#9679;</li>
+              <li>&#9679;</li>
+              <li>&#9679;</li>
+            </ul>
+          </div>
+          <img src="img/example_6.jpg" width="240" height="240" alt="DOVETAIL">
+        </article>
+      </div>
+
+      <div class="pages">
+        <ul class="pages_list">
+          <li class="pages_item"><span>1</span></li>
+          <li class="pages_item"><a href="#">2</a></li>
+          <li class="pages_item"><a href="#">3</a></li>
+          <li class="pages_item"><a href="#">Следующая</a></li>
+        </ul>
+      </div>
+    </section>
+</main>
+</div>
+
+<footer class="main_footer">
+
+<div class="map_container">
+   <div class="map"><img src="img/map.jpg" width="1200" height="784" alt="Где мы находимся"></div>
+   <div class="map_note"><img src="img/note.png" width="231" height="190" alt="Наше местоположение"></div>
+   <div class="contacts">
+     <div class="contacts_title">Nёrds design studio</div>
+     <div class="adress">
+       <p>191186, Санкт-Петербург,</p>
+       <p>ул. Б. Конюшенная, д.19,8</p>
+       <p class="tel">тел. +7(812) 275-75-75</p>
+     </div>
+     <div class="button_write_to_us">
+       <a href="#">Напишите нам</a>
+     </div>
+   </div>
+</div>
+
+
+<div class="footer">
+  <div class="social_nets">
+    <a class="social_btn social_btn_vk" href="#"><span class="icon_vk"></span></a>
+    <a class="social_btn social_btn_facebook" href="#"><span class="icon_facebook"></span></a>
+    <a class="social_btn social_btn_instagram" href="#"><span class="icon_instagramm"></span></a>
+  </div>
+  <div class="footer_slogan">
+    <span class="main_footer_slogan">Давайте дружить, это выгодно!</span>
+    <span class="footer_slogan_simple_text">Скидка 10% для друзей из социальных сетей</span>
+  </div>
+</div>
+
+</footer>
+
+</body>
+</html>
